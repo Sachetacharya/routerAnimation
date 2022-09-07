@@ -1,0 +1,7 @@
+<div routerLink="/home">Home</div>
+<div routerLink="/body">Body</div>
+<div routerLink="/about">ABout</div>
+
+<main [@routeAnimations]="prepareRoute(utlet)" class="content">
+  <router-outlet #utlet="outlet"></router-outlet>
+</main>
